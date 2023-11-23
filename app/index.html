@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>AiBICI</title>
+
+    <meta name="description" content="AiBICI" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:type" content="AiBICI" />
+    <meta property="og:title" content="AiBICI" />
+    <meta property="og:description" content="AiBICI" />
+    <meta property="og:image" content="https://www.aibici.co.kr/favicon.ico" />
+    <meta property="og:url" content="https://www.aibici.co.kr/" />
+
+    <meta name="theme-color" content="#fafafa" />
+    <meta
+      name="naver-site-verification"
+      content="a72ee842c85e84bf41bc37d15be1f31bf6fbec7b"
+    />
+    <meta
+      name="facebook-domain-verification"
+      content="t116izotxdv9jdiwe05sdfa7bhqpoi"
+    />
+
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="/logo192.png" />
+    <link rel="manifest" href="/site.manifest" />
+    <link rel="stylesheet" href="./index.css" />
+
+    <script>
+      (function () {
+        var w = window;
+        if (w.ChannelIO) {
+          return w.console.error("ChannelIO script included twice.");
+        }
+        var ch = function () {
+          ch.c(arguments);
+        };
+        ch.q = [];
+        ch.c = function (args) {
+          ch.q.push(args);
+        };
+        w.ChannelIO = ch;
+        function l() {
+          if (w.ChannelIOInitialized) {
+            return;
+          }
+          w.ChannelIOInitialized = true;
+          var s = document.createElement("script");
+          s.type = "text/javascript";
+          s.async = true;
+          s.src = "https://cdn.channel.io/plugin/ch-plugin-web.js";
+          var x = document.getElementsByTagName("script")[0];
+          if (x.parentNode) {
+            x.parentNode.insertBefore(s, x);
+          }
+        }
+        if (document.readyState === "complete") {
+          l();
+        } else {
+          w.addEventListener("DOMContentLoaded", l);
+          w.addEventListener("load", l);
+        }
+      })();
+
+      ChannelIO("boot", {
+        pluginKey: "bd279f09-b2a3-4bc6-a6a5-d1567a366848",
+        customLauncherSelector: "#custom-button",
+        hideChannelButtonOnBoot: true,
+      });
+    </script>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <canvas id="svgCanvas" style="display: none"></canvas>
+
+    <div id="root"></div>
+    <div id="toastContainer"></div>
+    <div id="custom-button"></div>
+
+    <script type="module" src="/index.tsx"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/impress/impress.js@2.0.0/js/impress.js"></script>
+
+    <link
+      href="https://hangeul.pstatic.net/hangeul_static/css/nanum-pen.css"
+      rel="stylesheet"
+    />
+
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js",
+      );
+      fbq("init", "245929018071532");
+      fbq("track", "PageView");
+    </script>
+
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=245929018071532&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+  </body>
+</html>

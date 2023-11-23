@@ -1,0 +1,11 @@
+Model Information:
+* title:	Simple Paper Cup
+* source:	https://sketchfab.com/3d-models/simple-paper-cup-453b494973864bf989bd4dc49733fe1a
+* author:	GlowKitty (https://sketchfab.com/GlowKitty)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Simple Paper Cup" (https://sketchfab.com/3d-models/simple-paper-cup-453b494973864bf989bd4dc49733fe1a) by GlowKitty (https://sketchfab.com/GlowKitty) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

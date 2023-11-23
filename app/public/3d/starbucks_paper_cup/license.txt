@@ -1,0 +1,11 @@
+Model Information:
+* title:	Starbucks Paper Cup
+* source:	https://sketchfab.com/3d-models/starbucks-paper-cup-6b8c2c26639f441cb936801ec6b7490e
+* author:	Slime103 (https://sketchfab.com/slime103)
+
+Model License:
+* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Starbucks Paper Cup" (https://sketchfab.com/3d-models/starbucks-paper-cup-6b8c2c26639f441cb936801ec6b7490e) by Slime103 (https://sketchfab.com/slime103) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)

@@ -1,0 +1,27 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #fff7f4;
+}
+
+#c-left,
+#c-right {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+}
+
+#c-right {
+  float: right;
+}
+
+#renderer {
+  position: relative;
+  height: 512px;
+  width: 512px;
+}
